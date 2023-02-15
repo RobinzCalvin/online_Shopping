@@ -1,0 +1,17 @@
+.start-btn{
+    background-color: #d1d2cc;
+    color: #834836;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.start-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #834836;
+    color: #d1d2cc;
+}
+.start-btn:active{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #3a201d;
+    color: #d1d2cc;
+}

@@ -6,7 +6,7 @@ const Login = () => {
       <h1>Welcome back to</h1>
       <h3 className="text-teal-500 mt-5 text-2xl">To our Website</h3>
       <form className="flex flex-col gap-4 mt-20">
-        <div className="w-[50%]">
+        <div className="min-[400px]:w-[50%]">
           <div className="mb-2 block">
             <Label htmlFor="email1" value="Your email" />
           </div>
@@ -17,7 +17,7 @@ const Login = () => {
             required={true}
           />
         </div>
-        <div className="w-[50%]">
+        <div className="min-[400px]:w-[50%]">
           <div className="mb-2 block">
             <Label htmlFor="password1" value="Your password" />
           </div>
@@ -27,7 +27,7 @@ const Login = () => {
           <Checkbox id="remember" />
           <Label htmlFor="remember">Remember me</Label>
         </div>
-        <Button type="submit" className="w-[50%]">Submit</Button>
+        <Button className="min-[400px]:w-[50%]" href="/welcome">Submit</Button>
       </form>
     </div>
   );
