@@ -7,8 +7,8 @@ const Global: React.FC = () => {
         <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
           <img
             src={brand_img}
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             alt="adidas"
             className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
           />
@@ -19,8 +19,8 @@ const Global: React.FC = () => {
         <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
           <img
             src={brand_img}
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             alt="adidas"
             className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
           />
@@ -31,8 +31,8 @@ const Global: React.FC = () => {
         <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
           <img
             src={brand_img}
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             alt="adidas"
             className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
           />
@@ -43,8 +43,8 @@ const Global: React.FC = () => {
         <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
           <img
             src={brand_img}
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             alt="adidas"
             className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
           />
@@ -55,56 +55,8 @@ const Global: React.FC = () => {
         <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
           <img
             src={brand_img}
-            width={100}
-            height={100}
-            alt="adidas"
-            className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
-          />
-          <h1 className="text-2xl w-[200px] text-center max-[600px]:w-[100px] max-[600px]:text-sm">
-            Adidas
-          </h1>
-        </div>
-        <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
-          <img
-            src={brand_img}
-            width={100}
-            height={100}
-            alt="adidas"
-            className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
-          />
-          <h1 className="text-2xl w-[200px] text-center max-[600px]:w-[100px] max-[600px]:text-sm">
-            Adidas
-          </h1>
-        </div>
-        <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
-          <img
-            src={brand_img}
-            width={100}
-            height={100}
-            alt="adidas"
-            className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
-          />
-          <h1 className="text-2xl w-[200px] text-center max-[600px]:w-[100px] max-[600px]:text-sm">
-            Adidas
-          </h1>
-        </div>
-        <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
-          <img
-            src={brand_img}
-            width={100}
-            height={100}
-            alt="adidas"
-            className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
-          />
-          <h1 className="text-2xl w-[200px] text-center max-[600px]:w-[100px] max-[600px]:text-sm">
-            Adidas
-          </h1>
-        </div>
-        <div className="card border-[5px] border-[#8AB789] rounded-[30px] p-5 flex justify-center items-center m-3 flex-col shadow-sm">
-          <img
-            src={brand_img}
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             alt="adidas"
             className="mb-5 rounded-[30px] max-[600px]:w-[125px]"
           />

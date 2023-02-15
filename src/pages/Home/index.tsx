@@ -29,7 +29,6 @@ const Home: React.FC = () => {
           <Tabs.Item
             title="Profile"
             icon={HiOutlineHome}
-            className="footer-btn"
           >
             Profile content
           </Tabs.Item>
@@ -44,20 +43,16 @@ const Home: React.FC = () => {
       <div className="fixed w-[100%] bottom-0 left-0">
         <div className="w-[100%] h-[50px] bg-[#4D6B4A] shadow-md flex justify-center items-center">
           <Button className="mr-3 rounded-lg footer-btn">
-            <HiInbox className="mr-2 h-5 w-5" />
-            Inbox
+            <HiInbox className="min-[450px]:mr-2 h-5 w-5" />
+            <span className="max-[450px]:hidden">Inbox</span>
           </Button>
           <Button className="mr-3 rounded-lg footer-btn">
-            <HiShoppingCart className="mr-2 h-5 w-5" />
-            Cart
+            <HiShoppingCart className="min-[450px]:mr-2 h-5 w-5" />
+            <span className="max-[450px]:hidden">Inbox</span>
           </Button>
           <Button className="mr-3 rounded-lg footer-btn">
-            <HiShoppingCart className="mr-2 h-5 w-5" />
-            Buy now
-          </Button>
-          <Button className="mr-3 rounded-lg footer-btn">
-            <HiOutlineHeart className="mr-2 h-5 w-5" />
-            Favorites
+            <HiOutlineHeart className="min-[450px]:mr-2 h-5 w-5" />
+            <span className="max-[450px]:hidden">Inbox</span>
           </Button>
         </div>
       </div>
