@@ -1,13 +1,10 @@
 import React from "react";
-import Header from "./Header";
+import Navbar from "./Navbar";
 const RegistrationPage = () => {
     return(
-        <Header />
-
-const RegistrationPage = () => {
-    return(
-        <h1>asdfasdfasdf</h1>
-    );
+        <div className="m-10 border-tean-50 border-[1px]">
+            <Navbar />
+        </div>
 }
 
 export default RegistrationPage;
