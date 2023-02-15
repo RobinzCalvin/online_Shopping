@@ -2,7 +2,10 @@ import React from "react";
 import Navbar from "./Navbar";
 const RegistrationPage = () => {
     return(
-        <div className="m-10 border-tean-50 border-[1px] p-10">
+        <div className="">
+            <div className="bg-[#4D6B4A] flex justify-center items-center">
+                <h1 className="text-3xl p-10 text-white">Shopping Site for <span className="text-6xl text-[#8BAF89]">you</span></h1>
+            </div>
             <Navbar />
         </div>
     );

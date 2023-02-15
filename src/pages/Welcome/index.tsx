@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./welcome.scss";
 const Welcome: React.FC = () => {
   return (
-    <div className="m-10 border-tean-50 border-[1px] flex justify-center items-center flex-col p-10">
+    <div className="flex justify-center items-center flex-col">
       <img src={welcome_back} width="70%" height="100%" alt="welcome" />
       <p className="text-2xl text-[#4A8986]">
         We link customers everywhere to join your wonderful products
