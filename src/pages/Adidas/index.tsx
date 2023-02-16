@@ -115,18 +115,27 @@ const Adidas: React.FC = () => {
               </div>
             </ul>
           </div>
-          
         </div>
         <div className="h-[calc(100vh-80px)]">
           <Carousel slide={true}>
-            <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white bg-adidas_1 bg-cover bg-center"></div>
+            <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white bg-adidas_1 bg-cover bg-center">
+              <div className="w-[50%]"></div>
+              <div className="w-[40%] flex justify-center items-center">
+                <blockquote className="text-2xl font-semibold italic text-center text-white">
+                  See   
+                  <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+                    <span className="relative text-[#231307]">Best Departments</span>
+                  </span>
+                  We have
+                </blockquote>
+              </div>
+            </div>
             <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white bg-adidas_2 bg-cover bg-no-repeat"></div>
             <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white bg-adidas_3 bg-cover"></div>
           </Carousel>
         </div>
         <div>gafsdfasdfasdfa</div>
       </div>
-      
     </>
   );
 };
