@@ -15,30 +15,15 @@ import Global from "./Global";
 const Home: React.FC = () => {
   return (
     <>
-      <div className="flex justify-center flex-col relative">
-        <div className="sticky top-0 h-[100px]  bg-[#4D6B4A] flex justify-center items-center w-[100%]">
+      <div className="flex justify-center flex-col">
+        <div className="sticky left-0 top-0 z-10 h-[100px]  bg-[#4D6B4A] flex justify-center items-center w-[100%]">
           <h1 className="text-2xl max-[250px]:text-center max-[250px]:p-1 max-[250px]:text-xl text-white font-mono">
             WebsiteName and Logo
           </h1>
         </div>
-        <Tabs.Group
-          aria-label="Tabs with icons"
-          style="underline"
-          className="flex justify-center bg-white shadow-md sticky top-0"
-        >
-          <Tabs.Item
-            title="Profile"
-            icon={HiOutlineHome}    
-          >
-            Profile content
-          </Tabs.Item>
-          <Tabs.Item active={true} title="Global" icon={HiOutlineGlobeAlt}>
-            <Global />
-          </Tabs.Item>
-          <Tabs.Item title="Local" icon={HiOutlineLocationMarker}>
-            Settings content
-          </Tabs.Item>
-        </Tabs.Group>
+        <div>
+         <Global />
+        </div>
       </div>
       <div className="fixed w-[100%] bottom-0 left-0">
         <div className="w-[100%] h-[50px] bg-[#4D6B4A] shadow-md flex justify-center items-center">

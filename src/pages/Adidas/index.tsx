@@ -11,7 +11,7 @@ const Adidas: React.FC = () => {
   return (
     <>
       <div className="flex flex-col w-[100%]">
-        <div className="w-[100%] flex items-center bg-[#6B6A67] box-shadow h-[80px]">
+        <div className="w-[100%] flex items-center bg-[#6B6A67] box-shadow h-[80px] sticky top-0 left-0 z-10  ">
           <h1 className="text-3xl p-5 text-white mr-7">Sohalib</h1>
           <div className="dropdown dropdown-hover max-[900px]:hidden">
             <label tabIndex={0} className="btn m-1 bg-transparent border-[0px]">
@@ -92,28 +92,27 @@ const Adidas: React.FC = () => {
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-[200px]"
+              className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-[150px]"
             >
               <div className="flex justify-center items-center">
                 <div className="flex justify-center items-center flex-col">
                   <Link to="/shoe">
-                    <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mr-5 mb-5">
-                      NewArrival
+                    <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mb-5 w-[100px]">
+                      Man
                     </h1>
                   </Link>
                   <Link to="/shoe">
-                    <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mr-5  mb-5">
-                      Best Selling
+                    <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mb-5  w-[100px]">
+                      Woman
                     </h1>
                   </Link>
                   <Link to="/shoe">
-                    <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mr-5  mb-5   ">
-                      Shoes
+                    <h1 className="btn bg-transparent text-black border-[0px] hover:text-white w-[100px]">
+                      New
                     </h1>
                   </Link>
                 </div>
               </div>
-              <li></li>
             </ul>
           </div>
           
@@ -125,6 +124,7 @@ const Adidas: React.FC = () => {
             <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white bg-adidas_3 bg-cover"></div>
           </Carousel>
         </div>
+        <div>gafsdfasdfasdfa</div>
       </div>
       
     </>
