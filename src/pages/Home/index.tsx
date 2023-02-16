@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         >
           <Tabs.Item
             title="Profile"
-            icon={HiOutlineHome}
+            icon={HiOutlineHome}    
           >
             Profile content
           </Tabs.Item>
