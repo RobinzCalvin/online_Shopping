@@ -8,10 +8,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         'online': "url('/src/assets/img/online.jpg')",
+        'adidas_1': "url('/src/assets/img/adidas_1.jpg')",
+        'adidas_2': "url('/src/assets/img/adidas_2.jpg')",
+        'adidas_3': "url('/src/assets/img/adidas_3.jpg')",
        }
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require("daisyui")
   ],
 }
