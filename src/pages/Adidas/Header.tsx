@@ -27,59 +27,73 @@ const Header: React.FC = () => {
           </ul>
         </div>
         <div className="dropdown dropdown-hover max-[900px]:hidden">
-          <label tabIndex={0} className="btn m-1 bg-transparent border-[0px]">
+          <label tabIndex={1} className="btn m-1 bg-transparent border-[0px]">
             Woman
             <HiChevronDown className="ml-3 h-5 w-5" />
           </label>
           <ul
-            tabIndex={0}
-            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-[30vw]"
+            tabIndex={1}
+            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-[400px]"
           >
             <div className="flex justify-center items-center">
-              <Link to="/shoe">
-                <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mr-5">
-                  Shoes
-                </h1>
-              </Link>
-              <a className="mr-4">Item 1</a>
-              <img src={woman} className="w-[50%]" />
+              <div className="flex justify-center items-center flex-col mr-5">
+                <Link to="/shoe">
+                  <li className="text-black border-[0px] ">
+                    <a>Shoes</a>
+                  </li>
+                </Link>
+                <li></li>
+                <li>
+                  <a>Itasdfasdfasdfem 2</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+              </div>
+
+              <img src={woman} className="w-[200px]" />
             </div>
-            <li></li>
-            <li>
-              <a>Item 2</a>
-            </li>
           </ul>
         </div>
         <div className="dropdown dropdown-hover max-[900px]:hidden">
-          <label tabIndex={0} className="btn m-1 bg-transparent border-[0px]">
-            New
+          <label tabIndex={2} className="btn m-1 bg-transparent border-[0px]">
+            Man
             <HiChevronDown className="ml-3 h-5 w-5" />
           </label>
           <ul
-            tabIndex={0}
-            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-[500px]"
+            tabIndex={2}
+            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-[400px]"
           >
             <div className="flex justify-center items-center">
-              <div className="flex justify-center items-center flex-col">
+              <div className="flex justify-center items-center flex-col mr-5">
                 <Link to="/shoe">
-                  <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mr-5 mb-5">
-                    NewArrival
-                  </h1>
+                  <li className="text-black border-[0px] ">
+                    <a>Shoes</a>
+                  </li>
                 </Link>
-                <Link to="/shoe">
-                  <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mr-5  mb-5">
-                    Best Selling
-                  </h1>
-                </Link>
-                <Link to="/shoe">
-                  <h1 className="btn bg-transparent text-black border-[0px] hover:text-white mr-5  mb-5   ">
-                    Shoes
-                  </h1>
-                </Link>
+                <li></li>
+                <li>
+                  <a>Itasdfasdfasdfem 2</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
               </div>
-              <img src={woman} className="w-[50%]" />
+
+              <img src={woman} className="w-[200px]" />
             </div>
-            <li></li>
           </ul>
         </div>
         <div className="dropdown dropdown-hover dropdown-end min-[900px]:hidden ml-auto">
