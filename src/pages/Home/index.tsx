@@ -15,8 +15,8 @@ import Global from "./Global";
 const Home: React.FC = () => {
   return (
     <>
-      <div className="flex justify-center flex-col">
-        <div className="sticky left-0 top-0 z-10 h-[100px]  bg-[#4D6B4A] flex justify-center items-center w-[100%]">
+      <div className="flex justify-center flex-col sticky left-0 top-0 z-10 ">
+        <div className="h-[100px]  bg-[#4D6B4A] flex justify-center items-center w-[100%]">
           <h1 className="text-2xl max-[250px]:text-center max-[250px]:p-1 max-[250px]:text-xl text-white font-mono">
             WebsiteName and Logo
           </h1>

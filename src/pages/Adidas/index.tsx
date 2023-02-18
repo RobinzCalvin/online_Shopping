@@ -11,8 +11,8 @@ import Header from "./Header";
 const Adidas: React.FC = () => {
   return (
     <>
+      <Header />
       <div className="flex flex-col w-[100%]">
-        <Header />
         <div className="h-[calc(100vh-80px)]">
           <Carousel slide={true}>
             <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white bg-adidas_1 bg-cover bg-center">
@@ -42,19 +42,27 @@ const Adidas: React.FC = () => {
           </div>
           <div className="flex mt-10 flex-wrap justify-center items-center">
             <Link to="/adidas/shirt">
-              <div className="card cate-card p-10 bg-slate-300 w-[250px] h-[150px] flex justify-center itmes-center ml-auto mr-auto mt-8 bg-shirt bg-cover">
+              <div className="card cate-card  bg-slate-300 w-[250px] max-[660px]:w-[150px] max-[460px]:h-auto h-[150px] flex justify-center itmes-center ml-5 mr-5 mt-8 bg-shirt bg-cover">
                 <h1 className="text-center text-2xl font-bold">SHIRT</h1>
               </div>
             </Link>
-            <div className="card p-10 cate-card bg-slate-300 w-[250px] h-[150px] flex justify-center itmes-center ml-auto mr-auto mt-8 bg-adidas_shoes bg-cover">
-              <h1 className="text-center text-2xl font-bold ">SHOES</h1>
-            </div>
-            <div className="card p-10 cate-card bg-slate-300 w-[250px] h-[150px] flex justify-center itmes-center ml-auto mr-auto mt-8 bg-adidas_clothes bg-cover">
-              <h1 className="text-center text-2xl font-bold">Clothes</h1>
-            </div>
-            <div className="card p-10 cate-card bg-slate-300 w-[250px] h-[150px] flex justify-center itmes-center ml-auto mr-auto mt-8 bg-adidas_caps bg-cover">
-              <h1 className="text-center text-2xl font-bold">Caps</h1>
-            </div>
+            <Link to="/adidas/shirt">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[150px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_shoes bg-cover">
+                <h1 className="text-center text-2xl font-bold ">SHOES</h1>
+              </div>
+            </Link>
+
+            <Link to="/adidas/shirt">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[150px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_clothes bg-cover">
+                <h1 className="text-center text-2xl font-bold">Clothes</h1>
+              </div>
+            </Link>
+
+            <Link to="/adidas/shirt">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[150px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_caps bg-cover">
+                <h1 className="text-center text-2xl font-bold">Caps</h1>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
