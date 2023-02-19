@@ -1,17 +1,41 @@
 .start-btn{
     background-color: #d1d2cc;
-    color: #834836;
+    color: #151d28;
     border-radius: 4px;
-    transition: .3s;
+    transition: .3s; 
 }
 
 .start-btn:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background-color: #834836;
+    background-color: #151d28;
     color: #d1d2cc;
 }
 .start-btn:active{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background-color: #3a201d;
+    background-color: #121214;
     color: #d1d2cc;
+}
+.man-hover{
+    transition: .3s;
+}
+.man-h1{
+    transition: .3s;
+}
+.man-hover:hover{
+  font-size: 150px;
+  background-color: white !important;
+  opacity: .8;
+  .man-h1{
+    color: #33507c;
+    z-index: 100;
+  }
+}
+.man-hover:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+}
+.woman-hover:hover{
+    opacity: .8;
+    h1{
+        color: #d1a382;
+    }
 }

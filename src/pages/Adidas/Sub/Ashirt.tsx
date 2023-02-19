@@ -46,10 +46,10 @@ const Ashirt = () => {
                     <div className="flex justify-center items-center flex-col">
                       <div className="flex justify-center items-center">
                         <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl">AladdiN</h1>
+                          <h1 className="text-3xl max-[600px]:text-2xl">AladdiN</h1>
                         </div>
                         <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl">AladdiN</h1>
+                          <h1 className="text-3xl max-[600px]:text-2xl">AladdiN</h1>
                         </div>
                       </div>
                       <button className="mt-4 btn cus-btn">
@@ -59,10 +59,10 @@ const Ashirt = () => {
                     <div className="flex justify-center items-center flex-col">
                       <div className="flex justify-center items-center">
                         <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl">AladdiN</h1>
+                          <h1 className="text-3xl max-[600px]:text-2xl">AladdiN</h1>
                         </div>
                         <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl">AladdiN</h1>
+                          <h1 className="text-3xl max-[600px]:text-2xl">AladdiN</h1>
                         </div>
                       </div>
                       <button className="mt-4 cus-btn btn">
@@ -74,7 +74,7 @@ const Ashirt = () => {
               </div>
             </div>
             <div className="w-[100%] mt-10">
-              <div className="w-[100%] bg-[#263242] shadow-md flex justify-center items-center">
+              <div className="w-[100%] bg-[#56616a] shadow-md flex justify-center items-center">
                 <h1 className="p-5 text-white text-xl">2023 Sohalib All rights reserved</h1>
               </div>
             </div>

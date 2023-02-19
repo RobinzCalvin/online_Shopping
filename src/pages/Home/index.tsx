@@ -16,8 +16,8 @@ const Home: React.FC = () => {
   return (
     <>
       <div className="flex justify-center flex-col sticky left-0 top-0 z-10 ">
-        <div className="h-[100px]  bg-[#4D6B4A] flex justify-center items-center w-[100%]">
-          <h1 className="text-2xl max-[250px]:text-center max-[250px]:p-1 max-[250px]:text-xl text-white font-mono">
+        <div className="h-[100px]  bg-[#56616a] flex justify-center items-center w-[100%] box-shadow">
+          <h1 className="text-2xl max-[250px]:text-center max-[250px]:p-1 max-[250px]:text-xl text-white font-mono text-center">
             WebsiteName and Logo
           </h1>
         </div>
@@ -25,8 +25,8 @@ const Home: React.FC = () => {
          <Global />
         </div>
       </div>
-      <div className="fixed w-[100%] bottom-0 left-0">
-        <div className="w-[100%] h-[50px] bg-[#4D6B4A] shadow-md flex justify-center items-center">
+      <div className="fixed w-[100%] bottom-0 left-0 z-50">
+        <div className="w-[100%] h-[50px] bg-[#56616a] shadow-md flex justify-center items-center">
           <Button className="mr-3 rounded-lg footer-btn">
             <HiInbox className="min-[450px]:mr-2 h-5 w-5" />
             <span className="max-[450px]:hidden">Inbox</span>

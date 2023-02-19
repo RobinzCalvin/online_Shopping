@@ -7,7 +7,7 @@ import woman from "../../assets/img/woman.jpg";
 const Header: React.FC = () => {
   return (
     <>
-      <div className="w-[100%] flex items-center bg-[#263242] box-shadow h-[80px] sticky top-0 left-0 z-10  ">
+      <div className="w-[100%] flex items-center bg-[#56616a] box-shadow h-[80px] sticky top-0 left-0 z-10  ">
         <h1 className="text-3xl p-5 text-white mr-7">Sohalib</h1>
         <div className="dropdown dropdown-hover max-[900px]:hidden">
           <label tabIndex={0} className="btn m-1 bg-transparent border-[0px]">

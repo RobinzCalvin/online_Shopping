@@ -31,6 +31,10 @@ module.exports = {
         'adidas_clothes': "url('/src/assets/img/adidas_clothes.jpg')",
         'adidas_caps': "url('/src/assets/img/adidas_caps.jpg')",
         'adidas_top': "url('/src/assets/img/adidas_top.jpg')",
+        'man_product': "url('/src/assets/img/man_product.jpg')",
+        'man_product_2': "url('/src/assets/img/man_product_2.jpg')",
+        'woman_product': "url('/src/assets/img/woman_product.jpg')",
+        'woman_product_2': "url('/src/assets/img/woman_product_2.jpg')",
        }
     },
   },

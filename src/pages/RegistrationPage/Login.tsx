@@ -4,9 +4,7 @@ import { Label, TextInput, Checkbox, Button} from "flowbite-react";
 const Login = () => {
   return (
     <div className="flex justify-center items-center flex-col">
-      <h1>Welcome back to</h1>
-      <h3 className="text-teal-500 mt-5 text-2xl">To our Website</h3>
-      <form className="flex flex-col gap-4 mt-20 w-[40%]">
+      <form className="flex flex-col gap-4 mt-5 w-[40%]">
         <div className="">
           <div className="mb-2 block">
             <Label htmlFor="email1" value="Your email" />
