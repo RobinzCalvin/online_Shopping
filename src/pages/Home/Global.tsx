@@ -6,7 +6,7 @@ const Global: React.FC = () => {
   return (
     <div className="flex justify-center items-center flex-wrap scroll-pl-6 snap-y h-[80%] mt-5">
       <Link to="/adidas">
-        <div className="cus-card border-[1px] border-[#565656] rounded-[30px]  flex justify-center items-center m-3 flex-col shadow-sm max-[500px]:m-2 max-[370px]:rounded-[15px]" >
+        <div className="cus-card border-[1px] border-[#565656] rounded-[5px]  flex justify-center items-center m-3 flex-col shadow-sm max-[500px]:m-2 max-[370px]:rounded-[15px]" >
             <img
             src={brand_img}
             width={250}

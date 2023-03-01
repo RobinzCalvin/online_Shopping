@@ -2,12 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HiChevronDown, HiMenu } from "react-icons/hi";
 import { Carousel } from "flowbite-react";
+// import NewArrivalPage from "../NewArrivalPage";
 import adidas_1 from "../../assets/img/adidas_1.jpg";
 import adidas_2 from "../../assets/img/adidas_2.jpg";
 import adidas_3 from "../../assets/img/adidas_3.jpg";
 import shirt from "../../assets/img/shirt.jpg";
 import "./adidas.scss";
 import Header from "./Header";
+// import NewArrivalPage from "../NewArrivalPage";
 const Adidas: React.FC = () => {
   return (
     <>
@@ -40,26 +42,36 @@ const Adidas: React.FC = () => {
               View All
             </h2>
           </div>
-          <div className="flex mt-10 flex-wrap justify-center items-center">
+          <div className="flex mt-10 flex-wrap justify-center items-center h-[100%]">
             <Link to="/adidas/shirt">
-              <div className="card cate-card  bg-slate-300 w-[250px] max-[660px]:w-[150px] max-[460px]:h-auto h-[150px] flex justify-center itmes-center ml-5 mr-5 mt-8 bg-shirt bg-cover">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-shirt bg-cover">
                 <h1 className="text-center text-2xl font-bold">SHIRT</h1>
               </div>
             </Link>
-            <Link to="/adidas/shirt">
-              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[150px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_shoes bg-cover">
-                <h1 className="text-center text-2xl font-bold ">SHOES</h1>
+            <Link to="/adidas/shoes">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-shirt bg-cover">
+                <h1 className="text-center text-2xl font-bold">SHOES</h1>
               </div>
             </Link>
 
             <Link to="/adidas/shirt">
-              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[150px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_clothes bg-cover">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_clothes bg-cover">
                 <h1 className="text-center text-2xl font-bold">Clothes</h1>
               </div>
             </Link>
 
             <Link to="/adidas/shirt">
-              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[150px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_caps bg-cover">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_caps bg-cover">
+                <h1 className="text-center text-2xl font-bold">Caps</h1>
+              </div>
+            </Link>
+            <Link to="/adidas/shirt">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_caps bg-cover">
+                <h1 className="text-center text-2xl font-bold">Caps</h1>
+              </div>
+            </Link>
+            <Link to="/adidas/shirt">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-adidas_caps bg-cover">
                 <h1 className="text-center text-2xl font-bold">Caps</h1>
               </div>
             </Link>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Tabs } from "flowbite-react";
 import Login from "./Login";
+import SignUp from "./SignUp";
 const Navbar = () => {
   return (
     <Tabs.Group
@@ -12,7 +13,7 @@ const Navbar = () => {
           <Login />
         </Tabs.Item>
       <Tabs.Item active={true} title="Signup" className="p-10">
-        Signup
+        <SignUp/>
       </Tabs.Item>
     </Tabs.Group>
   );
