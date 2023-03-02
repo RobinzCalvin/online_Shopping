@@ -5,12 +5,6 @@ import { HiChevronDown, HiMenu, HiChevronRight } from "react-icons/hi";
 import Category from "../../../components/Category";
 import ResponsiveCategory from "../../../components/Category/Responsive";
 import { Link } from "react-router-dom";
-import NewArrivalPage from "../../NewArrivalPage";
-// import shirts1 from '../../../assets/img/shorts1.jpg';
-import shirtf1 from "../../../assets/img/shirt1.jpg";
-import shoes from "../../../assets/img/shoes.jpg";
-import shirtf2 from "../../../assets/img/shirt2.jpg";
-
 const Ashirt = () => {
   return (
     <>

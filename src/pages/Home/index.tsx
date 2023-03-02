@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Tabs } from "flowbite-react";
 import {
   HiOutlineGlobeAlt,
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
           </h1>
         </div>
         <div>
-         <Global />
+         <Global/>
         </div>
       </div>
       <div className="fixed w-[100%] bottom-0 left-0 z-50">

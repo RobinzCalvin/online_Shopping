@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import brand_img from "../../assets/img/brand.jpg";
 import "./home.scss";
 const Global: React.FC = () => {
+  // let string  = props.name;
   return (
     <div className="flex justify-center items-center flex-wrap scroll-pl-6 snap-y h-[80%] mt-5">
       <Link to="/adidas">

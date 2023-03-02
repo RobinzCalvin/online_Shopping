@@ -1,16 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiChevronDown, HiMenu } from "react-icons/hi";
 import { Carousel } from "flowbite-react";
-// import NewArrivalPage from "../NewArrivalPage";
-import adidas_1 from "../../assets/img/adidas_1.jpg";
-import adidas_2 from "../../assets/img/adidas_2.jpg";
-import adidas_3 from "../../assets/img/adidas_3.jpg";
-import shirt from "../../assets/img/shirt.jpg";
 import "./adidas.scss";
+
 import Header from "./Header";
+import ShopCard from "../../components/Category/ShopCard";
 // import NewArrivalPage from "../NewArrivalPage";
 const Adidas: React.FC = () => {
+  //usestate variable
+  //hook
+  //function
   return (
     <>
       <Header />

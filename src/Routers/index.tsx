@@ -1,7 +1,9 @@
 import React from "react";
 import {Routes, Route} from 'react-router-dom';
 import Adidas from "../pages/Adidas";
+import Detail from "../pages/Adidas/Detail";
 import Ashirt from "../pages/Adidas/Sub/Ashirt";
+import Bag from "../pages/Bag";
 import Home from "../pages/Home";
 import NewArrivalPage from "../pages/NewArrivalPage";
 
@@ -17,6 +19,8 @@ const Routers = () => {
             <Route path="/adidas" element={<Adidas />} />
             <Route path="/adidas/shirt" element={<Ashirt />} />
             <Route path="/NewArrivalPage" element={<NewArrivalPage />} />
+            <Route path="/Detail" element={<Detail />} />
+            <Route path="/Bag" element={<Bag />} />
 
         </Routes>
     )

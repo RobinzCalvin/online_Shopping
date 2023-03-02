@@ -35,6 +35,8 @@ module.exports = {
         'man_product_2': "url('/src/assets/img/man_product_2.jpg')",
         'woman_product': "url('/src/assets/img/woman_product.jpg')",
         'woman_product_2': "url('/src/assets/img/woman_product_2.jpg')",
+        'shoes': "url('/src/assets/img/shoes.jpg')",
+        'shirts2': "url('/src/assets/img/shirts2.jpg')",
        }
     },
   },
