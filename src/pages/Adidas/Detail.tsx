@@ -8,7 +8,7 @@ const Detail: React.FC = () => {
     <>
       <div className="flex justify-center flex-row sticky left-0 top-0 z-10 ">
         <div className="h-[100px]  bg-[#56616a] flex justify-center items-center w-[100%] box-shadow">
-          <h1 className="text-2xl max-[250px]:text-center max-[250px]:p-1 max-[250px]:text-xl  font-mono text-center">
+          <h1 className="text-2xl text-white max-[250px]:text-center max-[250px]:p-1 max-[250px]:text-xl  font-mono text-center">
             Men's New Arrival
           </h1>
         </div>
@@ -27,11 +27,11 @@ const Detail: React.FC = () => {
             <img src="/img/shirts2.jpg" className="h-auto border border-white	" alt="" />
           </div>
 
-          <Accordion alwaysOpen={true} className="w-3/4 mt-4 p-10 border-none">
-            <Accordion.Panel>
-              <Accordion.Title>What is Flowbite?</Accordion.Title>
+          <Accordion alwaysOpen={true} className=" mt-4 p-10 border-none">
+            <Accordion.Panel >
+              <Accordion.Title className="w-full">What is Flowbite?</Accordion.Title>
               <Accordion.Content>
-                <p className="mb-2 text-gray-500 dark:text-gray-400">
+                <p className="text-gray-500 dark:text-gray-400">
                   Flowbite is an open-source library of interactive components
                   built on top of Tailwind CSS including buttons, dropdowns,
                   modals, navbars, and more.

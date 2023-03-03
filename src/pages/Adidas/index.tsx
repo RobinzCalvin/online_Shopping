@@ -49,7 +49,7 @@ const Adidas: React.FC = () => {
               </div>
             </Link>
             <Link to="/adidas/shoes">
-              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-5 mr-5 mt-8 bg-shirt bg-cover">
+              <div className="card cate-card bg-slate-300 w-[250px] max-[660px]:w-[150px] h-[250px] max-[460px]:h-auto flex justify-center itmes-center ml-2 mr-5 mt-8 bg-shirt bg-cover">
                 <h1 className="text-center text-2xl font-bold">SHOES</h1>
               </div>
             </Link>

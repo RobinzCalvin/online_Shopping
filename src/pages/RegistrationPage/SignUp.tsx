@@ -4,7 +4,7 @@ import { Label, TextInput, Checkbox, Button } from "flowbite-react";
 const SignUp = () => {
   return (
     <div className="flex justify-center items-center flex-col">
-      <form className="flex flex-col gap-4 mt-5 w-[40%]">
+      <form className="flex flex-col gap-4 mt-5">
         <div className="">
           <div className="mb-2 block">
             <Label htmlFor="Your Name" value="Your Name" />
@@ -56,7 +56,7 @@ const SignUp = () => {
           <Checkbox id="remember" />
           <Label htmlFor="remember">Remember me</Label>
         </div>
-        <Link to="/welcome">
+        <Link to="/welcome" className="flex justify-center">
           <Button className="">Submit</Button>
         </Link>
       </form>
