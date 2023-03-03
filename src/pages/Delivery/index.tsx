@@ -27,7 +27,7 @@ const Delivery: React.FC = () => {
             <span className=" text-2xl font-bold pt-10">
                 CONTACT DETAILS
             </span>
-            <span className=" text-xl pt-6">
+            <span className=" text-xl pt-6 pb-4">
             We'll use these details to keep you informed on your delivery.
             </span>
             <TextInput
@@ -36,7 +36,7 @@ const Delivery: React.FC = () => {
                 placeholder="love@products.com"
                 required={true} className="pb-4"
             />
-            <span className=" text-2xl font-bold pb-4">SHIPPING ADDRESS</span>
+            <span className=" text-2xl font-bold pt-4 pb-4">SHIPPING ADDRESS</span>
             
             <div className="flex flex-col md:flex-row space-x-2">
                 <TextInput
@@ -59,7 +59,7 @@ const Delivery: React.FC = () => {
                 placeholder="love@products.com"
                 required={true} className=" pb-4"
             />
-            <span className=" text-xl-lg">Start typing your street address or zip code for suggestions</span>
+            <span className=" text-xl-lg pb-4">Start typing your street address or zip code for suggestions</span>
             <TextInput
                 id="email1"
                 type="email"
@@ -77,7 +77,7 @@ const Delivery: React.FC = () => {
                      
                 </div>
                 <div className="hover:border border-solid border-black mb-4 p-3">
-                    <div className=" text-xl-lg font-bold">STANDARD DELIVERY</div>
+                    <div className=" text-xl-lg font-bold">COLLECT IN STORE</div>
                     <div className="flex flex-row">
                     <img src="/img/home.png " alt="" className="w-[30px]"/><span className=" text-xl-lg">Enter your address to see when you'll get your order.</span>
                     </div>
@@ -89,7 +89,7 @@ const Delivery: React.FC = () => {
 
         </div>
         <div className="flex flex-col ml-5 md:w-1/3">
-            <input type="button" value='CHECKOUT' className=" mt-5 mr-5  p-2 bg-[#8246af] rounded-lg shadow-lg hover:bg-black text-white font-bold text-xl " />
+        <button className="mt-10 p-4 bg-black text-2xl text-white hover:text-gray-400">CHECKOUT</button>
             <label htmlFor="" className="mt-5 text-4xl font-bold " >ORDER SUMMARY</label>
             <div className="flex flex-row mt-5 justify-between mr-5 text-xl">
                 <label htmlFor="">1 item</label>
