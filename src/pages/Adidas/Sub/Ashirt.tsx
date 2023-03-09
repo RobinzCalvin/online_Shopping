@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Header";
+import Header from "../../Home/Header";
 
 import { HiChevronDown, HiMenu, HiChevronRight } from "react-icons/hi";
 import Category from "../../../components/Category";
@@ -33,10 +33,10 @@ const Ashirt = () => {
               <div className="flex justify-center items-center flex-col flex-wrap w-[100%]">
                 <div className="flex justify-center items-center flex-col w-[100%] mt-16">
                   <h1 className="mb-2 font-bold text-4xl text-[#151d28] max-[770px]:text-xl max-[770px]:flex">
-                    New <br className="block md:hidden" />
+                    All <br className="block md:hidden" />
                     <span className="relative max-[770px]:ml-2">
                       <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
-                        Arrivals{""}
+                        Products{""}
                         {/* <span className="text-3xl md:text-5xl">👋</span> */}
                       </span>
                       <span className="cursor-effect absolute -bottom-0 left-0 -top-1 inline-block bg-white  w-full animate-type will-change"></span>
@@ -84,62 +84,7 @@ const Ashirt = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center">
-              <div className="flex justify-center items-center flex-col flex-wrap w-[100%]">
-                <div className="flex justify-center items-center flex-col w-[100%] mt-16">
-                  <h1 className="mb-2 font-bold text-4xl text-[#151d28] max-[770px]:text-xl max-[770px]:flex">
-                    All <br className="block md:hidden" />
-                    <span className="relative max-[770px]:ml-2">
-                      <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
-                        Shirts{""}
-                        {/* <span className="text-3xl md:text-5xl">👋</span> */}
-                      </span>
-                      <span className="cursor-effect absolute -bottom-0 left-0 -top-1 inline-block bg-white  w-full animate-type will-change"></span>
-                    </span>
-                  </h1>
-                  {/* <h1 className="text-3xl font-bold ">Top Products</h1> */}
-                  <div className="flex justify-center items-center flex-wrap w-[100%] mt-10">
-                    <div className="flex justify-center items-center flex-col">
-                      <div className="flex justify-center items-center">
-                        <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl max-[600px]:text-2xl">
-                            AladdiN
-                          </h1>
-                        </div>
-                        <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl max-[600px]:text-2xl">
-                            AladdiN
-                          </h1>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div className="flex justify-center items-center flex-col">
-                      <div className="flex justify-center items-center">
-                        <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl max-[600px]:text-2xl">
-                            AladdiN
-                          </h1>
-                        </div>
-                        <div className="w-[300px] h-[400px]  max-[930px]:w-[200px] max-[930px]:h-[300px] max-[600px]:w-[100px] max-[600px]:h-[150px] mr-5 ml-5 bg-slate-300 mt-10 bg-adidas_top bg-cover b-cate-card flex justify-center items-center">
-                          <h1 className="text-3xl max-[600px]:text-2xl">
-                            AladdiN
-                          </h1>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                  <div>
-                    <Link to="../../NewArrivalPage">
-                      <button className="mt-4 btn cus-btn">
-                        All Shirts View
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
             <div className="w-[100%] mt-10">
               <div className="w-[100%] bg-[#56616a] shadow-md flex justify-center items-center">

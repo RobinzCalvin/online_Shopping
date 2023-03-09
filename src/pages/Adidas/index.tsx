@@ -4,7 +4,7 @@ import { HiChevronDown, HiMenu } from "react-icons/hi";
 import { Carousel } from "flowbite-react";
 import "./adidas.scss";
 
-import Header from "./Header";
+import Header from "../Home/Header";
 import ShopCard from "../../components/Category/ShopCard";
 // import NewArrivalPage from "../NewArrivalPage";
 const Adidas: React.FC = () => {

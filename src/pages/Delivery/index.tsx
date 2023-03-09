@@ -15,7 +15,7 @@ import brand_img from "../../assets/img/brand.jpg";
 
 import { Link } from "react-router-dom";
 import { Select } from "react-daisyui";
-import Header from "../Adidas/Header";
+import Header from "../Home/Header";
 
 const Delivery: React.FC = () => {
   return (

@@ -1,0 +1,42 @@
+[
+    {
+        "logoTitle": "Adidas",
+        "logoUrl": "/img/logolist/adidas.svg"
+    },
+    {
+        "logoTitle": "Bershka",
+        "logoUrl": "/img/logolist/bershka.svg"
+    },
+    {
+        "logoTitle": "Defacto",
+        "logoUrl": "/img/logolist/de-facto.svg"
+    },
+    {
+        "logoTitle": "Mac",
+        "logoUrl": "/img/logolist/MAC.svg"
+    },
+    {
+        "logoTitle": "Mango",
+        "logoUrl": "/img/logolist/mango.svg"
+    },
+    {
+        "logoTitle": "Nike",
+        "logoUrl": "/img/logolist/nike.svg"
+    },
+    {
+        "logoTitle": "Pull&Bear",
+        "logoUrl": "/img/logolist/pull-bear.svg"
+    },
+    {
+        "logoTitle": "Sephora",
+        "logoUrl": "/img/logolist/sephora.svg"
+    },
+    {
+        "logoTitle": "Stradivarius",
+        "logoUrl": "/img/logolist/stradivarius.svg"
+    },
+    {
+        "logoTitle": "Zara",
+        "logoUrl": "/img/logolist/zara.svg"
+    }
+]

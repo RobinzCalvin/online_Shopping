@@ -2,12 +2,22 @@ import React from "react";
 import { Link } from "react-router-dom";
 import brand_img from "../../assets/img/brand.jpg";
 import "./home.scss";
-const Global: React.FC = () => {
+
+interface GlobalProps {
+  logobrand: React.Dispatch<React.SetStateAction<string>>
+}
+
+const Global: React.FC<GlobalProps> = ({logobrand}) => {
+  const logoBrandSet = () =>{
+    logobrand('true');
+  }
   // let string  = props.name;
   return (
+    <>
+    
     <div className="flex justify-center items-center flex-wrap scroll-pl-6 snap-y h-[80%] mt-5">
       <Link to="/adidas">
-        <div className="cus-card border-[1px] border-[#565656] rounded-[20px]  flex justify-center items-center m-3 flex-col shadow-sm max-[500px]:m-2 max-[370px]:rounded-[15px]" >
+        <div className="cus-card border-[1px] border-[#565656] rounded-[20px]  flex justify-center items-center m-3 flex-col shadow-sm max-[500px]:m-2 max-[370px]:rounded-[15px]" onClick={logoBrandSet} >
             <img
             src={brand_img}
             width={250}
@@ -63,6 +73,7 @@ const Global: React.FC = () => {
         </div>
       </Link>
     </div>
+    </>
   );
 };
 

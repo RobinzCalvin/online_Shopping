@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, Tabs } from "flowbite-react";
 import {
   HiOutlineGlobeAlt,
@@ -11,18 +11,24 @@ import {
 import brand_img from "../../assets/img/brand.jpg";
 import "./home.scss";
 import Global from "./Global";
+interface GlobalProps {
+  logoBrandSet: React.Dispatch<React.SetStateAction<string>>,
+  logoBrand: string
+}
 
-const Home: React.FC = () => {
+const Home: React.FC<GlobalProps> = ({logoBrandSet, logoBrand}) => {
+
   return (
-    <>
+    <> 
       <div className="flex justify-center flex-col sticky left-0 top-0 z-10 ">
         <div className="h-[100px]  bg-[#56616a] flex justify-center items-center w-[100%] box-shadow">
           <h1 className="text-2xl max-[250px]:text-center max-[250px]:p-1 max-[250px]:text-xl text-white font-mono text-center">
             WebsiteName and Logo
           </h1>
         </div>
+        <div>{logoBrand}</div>
         <div>
-         <Global/>
+         <Global logobrand={logoBrandSet} />
         </div>
       </div>
       <div className="fixed w-[100%] bottom-0 left-0 z-50">
